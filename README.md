@@ -1,3 +1,12 @@
+This repo demonstrates a bug with ts-eslint. When there is a symlink from `libs`, or a specific library to apps or elsewhere that alphabetically comes before libs, then linting will throw `Parsing error: "parserOptions.project" has been set for @typescript-eslint/parser.` errors.
+
+```sh
+nx lint symlinked-lib
+# OR
+npx eslint libs/symlinked-lib/**/*.ts
+```
+
+---
 
 
 # TsEslintSymlinks
