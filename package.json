@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint libs/symlinked-lib/**/*.ts"
+    "lint": "eslint libs/symlinked-lib/**/*.ts",
+    "lint-app": "eslint apps/legacy-app/**/*.ts"
   },
   "private": true,
   "dependencies": {},
@@ -12,11 +13,7 @@
     "@types/node": "12.12.38",
     "@typescript-eslint/eslint-plugin": "4.3.0",
     "@typescript-eslint/parser": "4.3.0",
-    "dotenv": "6.2.0",
     "eslint": "7.10.0",
-    "jest": "26.2.2",
-    "ts-jest": "26.4.0",
-    "ts-node": "~9.1.1",
     "typescript": "~4.0.3"
   }
 }
